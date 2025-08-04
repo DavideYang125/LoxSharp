@@ -1,4 +1,4 @@
-# LoxSharp — 基于《Crafting Interpreters》的 C# 脚本语言解释器
+# LoxSharp — 基于《Crafting Interpreters》用 C# 开发的解释器语言
 
 LoxSharp 是基于 Robert Nystrom 《Crafting Interpreters》一书的经典脚本语言 Lox 的 C# 实现。  
 项目通过逐步实现词法分析器（Scanner）、语法解析器（Parser）、抽象语法树（AST）、解释器（Interpreter）等模块，打造一门完整的解释型脚本语言。
