@@ -36,5 +36,13 @@
             var visualizer = new AstVisualizer();
             Console.WriteLine(visualizer.Print(expression));
         }
+
+
+
+        #region test parser
+
+
+
+        #endregion
     }
 }
