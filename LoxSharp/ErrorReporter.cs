@@ -19,5 +19,11 @@ namespace LoxSharp
             Console.Error.WriteLine($"[line {line}] Error{where}: {message}");
             HadError = true;
         }
+
+        public static void RuntimeError(RuntimeError error)
+        {
+            Console.Error.WriteLine($"{error.Message}\n[line {error.Token.Line}]");
+            HadError = true;
+        }
     }
 }

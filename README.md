@@ -31,8 +31,8 @@ LoxSharp 是基于 Robert Nystrom 《Crafting Interpreters》一书的经典脚�
   - [ ] 支持循环语句（while）  
   - [ ] 语法错误检测与报告  
 
-- [ ] 实现树遍历解释器（Interpreter）  
-  - [ ] 表达式求值（算术、比较、逻辑运算）  
+- [x] 实现树遍历解释器（Interpreter）  
+  - [x] 表达式求值（算术、比较、逻辑运算）  
   - [ ] 变量绑定和作用域管理  
   - [ ] 执行语句（打印、条件、循环）  
   - [ ] 函数声明和调用  
